@@ -1,0 +1,136 @@
+set_location_assignment -to CLK PIN_12
+set_location_assignment -to DBG PIN_64
+set_location_assignment -to CKO PIN_69
+set_location_assignment -to ADDR[7] PIN_14
+set_location_assignment -to ADDR[6] PIN_15
+set_location_assignment -to ADDR[5] PIN_16
+set_location_assignment -to ADDR[4] PIN_17
+set_location_assignment -to ADDR[3] PIN_18
+set_location_assignment -to ADDR[2] PIN_19
+set_location_assignment -to ADDR[1] PIN_20
+set_location_assignment -to ADDR[0] PIN_21
+set_location_assignment -to DATA[7] PIN_1
+set_location_assignment -to DATA[6] PIN_2
+set_location_assignment -to DATA[5] PIN_3
+set_location_assignment -to DATA[4] PIN_4
+set_location_assignment -to DATA[3] PIN_5
+set_location_assignment -to DATA[2] PIN_6
+set_location_assignment -to DATA[1] PIN_7
+set_location_assignment -to DATA[0] PIN_8
+set_location_assignment -to RD PIN_99
+set_location_assignment -to WR PIN_100
+set_location_assignment -to IORQ PIN_98
+set_location_assignment -to MREQ PIN_97
+set_location_assignment -to BUSREQ PIN_92
+set_location_assignment -to BUSACK PIN_91
+set_location_assignment -to INT PIN_95
+set_location_assignment -to WAIT PIN_96
+set_location_assignment -to LCD_CS PIN_90
+set_location_assignment -to LCD_RST PIN_89
+set_location_assignment -to LCD_RD PIN_88
+set_location_assignment -to LCD_WR PIN_77
+set_location_assignment -to LCD_A0 PIN_76
+set_location_assignment -to LCD_DATA[7] PIN_87
+set_location_assignment -to LCD_DATA[6] PIN_86
+set_location_assignment -to LCD_DATA[5] PIN_85
+set_location_assignment -to LCD_DATA[4] PIN_84
+set_location_assignment -to LCD_DATA[3] PIN_83
+set_location_assignment -to LCD_DATA[2] PIN_82
+set_location_assignment -to LCD_DATA[1] PIN_81
+set_location_assignment -to LCD_DATA[0] PIN_78
+set_location_assignment -to LCD_BLK PIN_75
+set_location_assignment -to KEY_C[14] PIN_42
+set_location_assignment -to KEY_C[13] PIN_41
+set_location_assignment -to KEY_C[12] PIN_40
+set_location_assignment -to KEY_C[11] PIN_39
+set_location_assignment -to KEY_C[10] PIN_38
+set_location_assignment -to KEY_C[9] PIN_37
+set_location_assignment -to KEY_C[8] PIN_36
+set_location_assignment -to KEY_C[7] PIN_35
+set_location_assignment -to KEY_C[6] PIN_34
+set_location_assignment -to KEY_C[5] PIN_33
+set_location_assignment -to KEY_C[4] PIN_30
+set_location_assignment -to KEY_C[3] PIN_29
+set_location_assignment -to KEY_C[2] PIN_28
+set_location_assignment -to KEY_C[1] PIN_27
+set_location_assignment -to KEY_C[0] PIN_26
+set_location_assignment -to KEY_R[4] PIN_49
+set_location_assignment -to KEY_R[3] PIN_48
+set_location_assignment -to KEY_R[2] PIN_47
+set_location_assignment -to KEY_R[1] PIN_44
+set_location_assignment -to KEY_R[0] PIN_43
+set_location_assignment -to BEEP_L PIN_73
+set_location_assignment -to BEEP_R PIN_71
+set_location_assignment -to SDET PIN_53
+set_location_assignment -to STDBY PIN_52
+set_location_assignment -to CHRG PIN_51
+set_location_assignment -to LED[1] PIN_61
+set_location_assignment -to LED[0] PIN_62
+set_instance_assignment -name IO_STANDARD -to CLK "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DBG "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to CKO "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to ADDR[7] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to ADDR[6] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to ADDR[5] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to ADDR[4] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to ADDR[3] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to ADDR[2] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to ADDR[1] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to ADDR[0] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DATA[7] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DATA[6] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DATA[5] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DATA[4] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DATA[3] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DATA[2] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DATA[1] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to DATA[0] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to RD "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to WR "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to IORQ "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to MREQ "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to BUSREQ "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to BUSACK "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to INT "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to WAIT "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_CS "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_RST "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_RD "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_WR "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_A0 "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_DATA[7] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_DATA[6] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_DATA[5] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_DATA[4] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_DATA[3] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_DATA[2] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_DATA[1] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_DATA[0] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LCD_BLK "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[14] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[13] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[12] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[11] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[10] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[9] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[8] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[7] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[6] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[5] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[4] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[3] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[2] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[1] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_C[0] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_R[4] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_R[3] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_R[2] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_R[1] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to KEY_R[0] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to BEEP_L "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to BEEP_R "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to SDET "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to STDBY "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to CHRG "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LED[1] "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD -to LED[0] "3.3-V LVTTL"

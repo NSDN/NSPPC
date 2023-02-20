@@ -1,0 +1,121 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 20:31:38  April 19, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		PPCSB_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE 5M240ZT100C5
+set_global_assignment -name TOP_LEVEL_ENTITY PPCSB
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:31:38  APRIL 19, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name VERILOG_FILE PPCSB.v
+set_location_assignment PIN_14 -to ADDR[7]
+set_location_assignment PIN_15 -to ADDR[6]
+set_location_assignment PIN_16 -to ADDR[5]
+set_location_assignment PIN_17 -to ADDR[4]
+set_location_assignment PIN_18 -to ADDR[3]
+set_location_assignment PIN_19 -to ADDR[2]
+set_location_assignment PIN_20 -to ADDR[1]
+set_location_assignment PIN_21 -to ADDR[0]
+set_location_assignment PIN_73 -to BEEP_L
+set_location_assignment PIN_71 -to BEEP_R
+set_location_assignment PIN_91 -to BUSACK
+set_location_assignment PIN_92 -to BUSREQ
+set_location_assignment PIN_51 -to CHRG
+set_location_assignment PIN_12 -to CLK
+set_location_assignment PIN_55 -to DATA[7]
+set_location_assignment PIN_2 -to DATA[6]
+set_location_assignment PIN_3 -to DATA[5]
+set_location_assignment PIN_4 -to DATA[4]
+set_location_assignment PIN_5 -to DATA[3]
+set_location_assignment PIN_6 -to DATA[2]
+set_location_assignment PIN_7 -to DATA[1]
+set_location_assignment PIN_8 -to DATA[0]
+set_location_assignment PIN_64 -to DBG
+set_location_assignment PIN_95 -to INT
+set_location_assignment PIN_98 -to IORQ
+set_location_assignment PIN_97 -to MREQ
+set_location_assignment PIN_99 -to RD
+set_location_assignment PIN_53 -to SDET
+set_location_assignment PIN_52 -to STDBY
+set_location_assignment PIN_96 -to WAIT
+set_location_assignment PIN_100 -to WR
+set_location_assignment PIN_62 -to LED[0]
+set_location_assignment PIN_61 -to LED[1]
+set_location_assignment PIN_76 -to LCD_A0
+set_location_assignment PIN_77 -to LCD_WR
+set_location_assignment PIN_78 -to LCD_DATA[0]
+set_location_assignment PIN_81 -to LCD_DATA[1]
+set_location_assignment PIN_82 -to LCD_DATA[2]
+set_location_assignment PIN_83 -to LCD_DATA[3]
+set_location_assignment PIN_84 -to LCD_DATA[4]
+set_location_assignment PIN_85 -to LCD_DATA[5]
+set_location_assignment PIN_86 -to LCD_DATA[6]
+set_location_assignment PIN_87 -to LCD_DATA[7]
+set_location_assignment PIN_90 -to LCD_CS
+set_location_assignment PIN_75 -to LCD_BLK
+set_location_assignment PIN_89 -to LCD_RST
+set_location_assignment PIN_88 -to LCD_RD
+set_location_assignment PIN_43 -to KEY_R[0]
+set_location_assignment PIN_44 -to KEY_R[1]
+set_location_assignment PIN_47 -to KEY_R[2]
+set_location_assignment PIN_48 -to KEY_R[3]
+set_location_assignment PIN_49 -to KEY_R[4]
+set_location_assignment PIN_26 -to KEY_C[0]
+set_location_assignment PIN_27 -to KEY_C[1]
+set_location_assignment PIN_28 -to KEY_C[2]
+set_location_assignment PIN_29 -to KEY_C[3]
+set_location_assignment PIN_30 -to KEY_C[4]
+set_location_assignment PIN_33 -to KEY_C[5]
+set_location_assignment PIN_34 -to KEY_C[6]
+set_location_assignment PIN_35 -to KEY_C[7]
+set_location_assignment PIN_36 -to KEY_C[8]
+set_location_assignment PIN_37 -to KEY_C[9]
+set_location_assignment PIN_38 -to KEY_C[10]
+set_location_assignment PIN_39 -to KEY_C[11]
+set_location_assignment PIN_40 -to KEY_C[12]
+set_location_assignment PIN_41 -to KEY_C[13]
+set_location_assignment PIN_42 -to KEY_C[14]
+set_global_assignment -name VERILOG_FILE KeyScan.v
+set_global_assignment -name VERILOG_FILE BeepBeep.v
+set_global_assignment -name VERILOG_FILE ClockDiv.v
+set_location_assignment PIN_69 -to CKO

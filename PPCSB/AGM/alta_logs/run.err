@@ -1,0 +1,28 @@
+Info: Found GCLK net beep_beep|CLK_DIV_2~clkctrl_outclk (1).
+Info: Found GCLK net DBG~inputclkctrl_outclk (17).
+Info: Found GCLK net iWR~clkctrl_outclk (7).
+Info: Found GCLK net CLK~inputclkctrl_outclk (11).
+Warn: [set_instance_assignment] Empty -to specified, objects ERST are not recognized.
+Warn: Logic slice clk_div|CNT[4]~1 is used as a latch, output net: clk_div|CNT[4]~1_combout.
+Warn: Logic slice clk_div|CNT[2]~9 is used as a latch, output net: clk_div|CNT[2]~9_combout.
+Warn: Logic slice clk_div|CNT[3]~5 is used as a latch, output net: clk_div|CNT[3]~5_combout.
+Warn: Logic slice clk_div|CNT[0]~17 is used as a latch, output net: clk_div|CNT[0]~17_combout.
+Warn: Logic slice clk_div|CNT[1]~13 is used as a latch, output net: clk_div|CNT[1]~13_combout.
+Info: ki_san|COL_POS[1]|Q is identified as a clock gate signal.
+Info: ki_san|COL_POS[2]|Q is identified as a clock gate signal.
+Info: ki_san|COL_POS[3]|Q is identified as a clock gate signal.
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|ADDR[7] -period 1000.000 ADDR[7].
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|ADDR[5] -period 1000.000 ADDR[5].
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|CLK -period 1000.000 CLK.
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|ADDR[6] -period 1000.000 ADDR[6].
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|WR -period 1000.000 WR.
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|RD -period 1000.000 RD.
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|ADDR[4] -period 1000.000 ADDR[4].
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|IORQ -period 1000.000 IORQ.
+Info: Auto constraint: create_clock -name Internal_generated_clock_PPCSB|DBG -period 1000.000 DBG.
+Info: Auto constraint: create_generated_clock -name Internal_generated_clock_beep_beep|CLK_DIV_2|Q -divide_by 2 -add -source CLK -master_clock Internal_generated_clock_PPCSB|CLK beep_beep|CLK_DIV_2|Q.
+Info: Auto constraint: create_generated_clock -name Internal_generated_clock_ki_san|COL_POS[0]|Q -divide_by 2 -add -source CLK -master_clock Internal_generated_clock_PPCSB|CLK ki_san|COL_POS[0]|Q.
+Warn: User constraints coverage is too low at 0.0%.
+Info: Using config file ./PPCSB.bin to generate download file ./PPCSB_download.svf.
+
+Total 0 fatals, 0 errors, 7 warnings, 19 infos.

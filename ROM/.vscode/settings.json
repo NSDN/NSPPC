@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "hexdump.littleEndian": false,
+    "files.associations": {
+        "12x16.C": "cpp"
+    }
+}
