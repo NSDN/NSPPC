@@ -43,7 +43,7 @@ void main() {
     
     if (res == 0) {
         // load user code
-        res = diskFopen("/USER.BIN");
+        res = diskFopen("/PPC.BIN");
         if (res != 0)
             lcdPrintf("DF:%02Xh\r\n", res);
 

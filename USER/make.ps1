@@ -7,7 +7,7 @@ $null = mkdir ./out/
 $main = "main.c"
 $hex = "./out/main.hex"
 $bin = "./out/main.bin"
-$user = "USER.BIN"
+$user = "PPC.BIN"
 
 $code = 0x8800
 $code_size = 0x3C00
